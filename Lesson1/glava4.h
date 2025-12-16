@@ -31,7 +31,6 @@ void main012() {
     
     cout << "I have some delicious" << dessert;
     cout << "for you, " << name << ".\n";
-    
 
     //cin.getline(name, ArSize);
     //cout << ArSize;
