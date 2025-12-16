@@ -127,6 +127,7 @@
     <ClCompile Include="operator6-1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="glava7.h" />
     <ClInclude Include="stringbad0.h" />
     <ClInclude Include="strngbad.h" />
     <ClInclude Include="glava2.h" />
@@ -138,6 +139,7 @@
     <ClInclude Include="operator6.h" />
     <ClInclude Include="uptack.h" />
     <ClInclude Include="uptack2.h" />
+    <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="main421" />
