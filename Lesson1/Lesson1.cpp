@@ -9,6 +9,7 @@
 
 #include "glava2.h"
 #include "glava4.h"
+#include "glava12.h"
 #include "operator6.h"
 #include "operator6-1.h"
 using namespace std;
@@ -26,7 +27,11 @@ int main(){
     //main001();
     //main002();
     //main003();
-     main012();
+     //main012();
+     //main013();
+     //main014();
+    main015();
+    //main1200();
     //x6();
     //x7();
 

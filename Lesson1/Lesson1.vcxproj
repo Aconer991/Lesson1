@@ -127,6 +127,8 @@
     <ClCompile Include="operator6-1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="stringbad0.h" />
+    <ClInclude Include="strngbad.h" />
     <ClInclude Include="glava2.h" />
     <ClInclude Include="glava4.h" />
     <ClInclude Include="main4-21.h" />
