@@ -2,6 +2,10 @@
 #include <iostream>
 #include <string>
 
+
+
+#include <cstring>
+
 using namespace std;
 void cheers(int);
 double cube(double x);
@@ -14,6 +18,7 @@ int main701()
 	cin >> side;
 	double volume = cube(side);
 	cout << "A" << side << "-foot cube has a volume of: ";
+
 	cout << volume << "cubic feet \n";
 	cheers(cube(2));
 	
@@ -58,4 +63,36 @@ void n_chars(char c, int n)
 {
 	while (n-- > 0)
 		cout << c;
+		cout << "\nEnter another character or press the q-key: ";
+		cin >> c;
+
+	//cout << volume << "cubic feet/ \n";
+	//cheers(cube(2));
+	
+
+}
+
+long double probability(unsigned numbers, unsigned picks);
+int main703() {
+	double total, choices;
+	cout << "¬вод общего кол-ва номеров, которые нужно угадать и \n"
+		"номер разрешенного номера: \n";
+
+	while ((cin >> total >> choices) && choices <= total)
+	
+		cout << "¬аш шанс: ";
+		cout << probability(total, choices);
+		cout << "выигрыша \n";
+		cout << "¬вод следующих двух чисел (q дл€ завершени€): ";
+		//¬вод следующих двух чисел
+		cout << "bye\n";
+	
+	
+{
+	long double result = 1.0;
+	long double n;
+	unsigned p;
+	for (n = numbers, p = picks; p > 0; n--, p--)
+		result = result * n / p;
+	return result;
 }
