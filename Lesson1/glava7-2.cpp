@@ -44,7 +44,7 @@ void show(std::array<double, Seasons> da)
 }
 
 
-int main711()
+void main711()
 {
     // 1. Современный фиксированный массив (предпочтительнее int arr[100])
     std::array<int, 5> a = { 10, 20, 30, 40, 50 };
@@ -65,7 +65,7 @@ int main711()
     // delete[] ptr;           // ← легко забыть / утечка памяти
 }
 
-int main711() {
+void main712() {
     // Создаём массив (vector)
     std::vector<int> numbers = { 7, 2, 8, 1, 5 };
 
@@ -99,10 +99,10 @@ int main711() {
     // 5. Количество элементов
     std::cout << "Размер массива: " << numbers.size() << " элементов\n";
 
-    return 0;
+   
 }
 
-int main712()
+void main713()
 {
     std::vector<int> v = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
 
@@ -117,7 +117,7 @@ int main712()
 
 //замена элементов по индексу
 
-int main713()
+void main714()
 {
     std::vector<int> v = { 1, 2, 3, 4, 5 };
 
@@ -143,7 +143,7 @@ int main713()
     std::cout << "\n";
 }
 
-int main714()
+void main715()
 {
     std::vector<int> v = { 10, 20, 30, 40, 50, 60, 70 };
 

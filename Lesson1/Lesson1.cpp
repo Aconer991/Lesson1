@@ -1,33 +1,26 @@
 ﻿#include <iostream>
 #include <time.h>
 #include <cstring>
-//#include "main2.h"
-//#include "main3.h"
-//#include "main4-21.h"
-//#include "uptack.h"
-//#include "uptack2.h"
+//#include "main2.cpp"
+//#include "main3.cpp"
+//#include "main4-21.cpp"
+//#include "uptack.cpp"
+//#include "uptack2.cpp"
 
-//#include "glava2.h"
-#include "glava4.h"
-#include "glava5.h"
+#include "glava2.cpp"
+#include "glava4.cpp"
+#include "glava5.cpp"
 
+#include "glava6.cpp"
+#include "glava7.cpp"
+#include "glava7-2.cpp"
+#include "glava7.cpp"
 
-#include "glava7.h"
-#include "glava7-2.h"
-//#include "glava12.h"
-//#include "operator6.h"
-//#include "operator6-1.h"
-
-//#include "glava7.h"
-//#include "glava12.h"
-#include "operator6.h"
-#include "operator6-1.h"
+#include "operator6.cpp"
+#include "operator6-1.cpp"
 
 
-//#include "glava7.h"
-//#include "glava12.h"
-//#include "operator6.h"
-//#include "operator6-1.h"
+#include "glava9.h"
 
 using namespace std;
 
@@ -48,6 +41,7 @@ int main(){
      //main013();
      //main014();
     //main015();
+  
 
 
 
@@ -73,11 +67,13 @@ int main(){
 
     //main702();
     //main709();
-    main710();
+    //main711();
+    //main606();
     //main514();
     //first();
     
-
+    //main901();
+    main903();
     //x6();
     //x7();
 
