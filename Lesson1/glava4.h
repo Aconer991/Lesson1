@@ -13,6 +13,9 @@
 
 using namespace std;
 
+
+
+
 void main011() {
 
 //string cards[5] = { "aaa", "bbb", "cccc", "dddd", '\0' };
@@ -257,12 +260,21 @@ void main020() {
     cout << "Before using strcpy: ()\n";
     cout << animal << "at" << (int*)animal << endl;
     cout << ps << "at " << (int*)ps << endl;
+
     ps = new char[strlen(animal) + 1];
     strcpy(ps, animal);
     cout << "After using stcpy(): \n";
     cout << animal << "at " << (int*)animal << endl;
     cout << ps << "at " << (int*)ps << endl;
     delete[] ps;
+
+    //ps = new char[strlen(animal) + 1];
+    //strcpy(ps, animal);
+    //cout << "After using stcpy(): \n";
+    //cout << animal << "at " << (int*)animal << endl;
+    //cout << ps << "at " << (int*)ps << endl;
+    //delete[] ps;
+
 }
 
     int  main59() {
